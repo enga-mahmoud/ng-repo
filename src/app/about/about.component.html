@@ -1,0 +1,18 @@
+<p>
+  about works!
+  <br/>
+  QueryParam1:  {{ QueryParam1 }}
+<br/>
+  QueryParam2:  {{ QueryParam2 }}
+</p>
+
+
+<p (click)="sendMeHome()" >
+ <strong>Send Me Home </strong> 
+</p>
+
+Passed Goals As Data Service Object Between components
+
+<ul *ngFor="let goal of goals" >
+   <li><strong>{{ goal }} </strong></li>  
+</ul>
